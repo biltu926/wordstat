@@ -1,0 +1,82 @@
+html, body{
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-y: hidden;
+}
+.ltop{margin: 25px;}
+.rtop{margin: 25px;}
+.p-style{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+}
+.header{
+  margin: 0px;
+  padding: 0px; 
+}
+.textcontainer{
+    text-align: right;
+    height:40%;
+}
+.textbox{
+  height:100%;
+  width:90%;
+  margin-right: 25px;
+
+}
+.buttoncontainer{
+padding:5px;
+margin-right: 23px;
+text-align:right;
+}
+.right-pane{
+  background:white;
+  height: 100%;
+  position:relative;
+  overflow: auto;
+}
+.left-pane{
+  margin: 0px;
+  padding: 0px;
+  background: rgba(1, 31, 53, 0.81);
+  height:100%;
+  position: relative;
+  overflow-y:hidden;
+}
+.base{
+  margin: 0px;
+  padding: 0px;
+  height:100%;
+  position: relative;
+  text-align:center;
+  overflow-y: hidden;
+}
+.row2{
+  height: 210px;
+  margin: 15px;
+}
+.card {
+  height: 10rem;
+}
+.row1{
+  margin: 15px;
+}
+.opCard{
+  overflow-y: scroll;
+  height: 240px;
+}
+.box-shadow-hover:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.pointer {
+  cursor: pointer;
+}
+.footer {
+  position: absolute;
+  text-align: center;
+  padding: 3px;
+  width: 100%;
+  background-color: DarkSalmon;
+  color: white;
+}
